@@ -7,8 +7,8 @@ export const Login = () => {
   return (
     <AuthPage
       type="login"
-      registerLink={false}
-      forgotPasswordLink={false}
+      // registerLink={true}
+      // forgotPasswordLink={false}
       title={<ThemedTitleV2 collapsed={false} text="Refine Project" />}
       formProps={{
         initialValues: authCredentials,
